@@ -1,60 +1,60 @@
 # Aman Mishra
 
-<h2 align="center">About me</h2>
-
-```golang
+```go
 package main
 
-import (
-	"fmt"
-)
-
-type Bio map[string]string
+import "fmt"
 
 func main() {
-	for k, v := range GetBio() {
-		fmt.Printf("%+v: %+v\n", k, v)
-	}
-}
-
-func GetBio() Bio {
-	return Bio{
-		"- ⚡ Quick bio:":                    "I just want to learn new things to make life easier for myself and others",
-		"- 🌱 I’m currently learning":        "Data Structures and Algorithms in JAVA",
-		"- 🤔 I’m looking for help with":     "Anything related to what I am currently learning 😅",
-		"- 📫 How to reach me:":              "https://github.com/Aman1131145",
-	}
+    bio := map[string]string{
+        "Bio":        "Full Stack Developer | Java, React.js, Node.js",
+        "Learning":   "DSA in Java & System Design",
+        "Ask Me":     "Anything JS, React, or Node related",
+        "GitHub":     "github.com/Aman1131145",
+    }
+    for k, v := range bio {
+        fmt.Printf("%s: %s\n", k, v)
+    }
 }
 ```
 
-<h2 align="center">You can reach me at :alien:</h2>
+---
 
+### 🔗 Connect
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=flat&logo=linkedin)](https://linkedin.com/in/amanmishra5) 
+[![Stack Overflow](https://img.shields.io/badge/Stack%20Overflow-orange?style=flat&logo=stackoverflow)](https://stackoverflow.com/users/14773695/aman-mishra)
+[![Email](https://img.shields.io/badge/Email-red?style=flat&logo=gmail)](mailto:mishraaman113114@gmail.com)
+
+---
+
+### 🛠 Tech Stack
+**Languages**: Java, JS/TS, SQL  
+**Frontend**: React, MUI, Redux Toolkit, Next.js  
+**Backend**: Node.js, Express, Knex.js, Strapi  
+**DB**: MySQL, MongoDB  
+**Tools**: Git, Swagger, Postman
+
+---
+
+### 💼 Experience
+**SimpLi Techs (2024–Now)** – Built CRM with 10+ API integrations, JWT Auth, RBAC, Swagger.  
+**VC2 (2024)** – Launched MERN-based poetry module with SEO and CMS.  
+**Coding Ninjas TA (2022)** – Mentored 1K+ students in DSA with 4.5★ avg rating.
+
+---
+
+### 🚀 Projects
+- **[PrimeWealthCare CRM](https://homepage.primewealthcare.in/)** – Insurance CRM with secure auth & dashboards.
+- **[BuzzLink](https://github.com/Aman1131145/Social-Media)** – Real-time social app with Cloudinary & MongoDB.
+- **[Posterz E-Commerce](https://github.com/Aman1131145/E-Commerce-Website-Client)** – Stripe-powered store with 200+ products.
+
+---
+
+### 📊 GitHub Stats
 <p align="center">
-  <a href="https://www.linkedin.com/in/aman-mishra-b91280204/">
-    <img src="https://www.vectorlogo.zone/logos/linkedin/linkedin-icon.svg" alt="Aman Mishra's LinkedIn Profile" height="30" width="30">
-  </a>
-
-  <a href="https://stackoverflow.com/users/14773695/aman-mishra">
-    <img src="https://www.vectorlogo.zone/logos/stackoverflow/stackoverflow-icon.svg" alt="Angel Santiago Jaime Zavala's Stack Overflow Profile" height="30" width="30">
-  </a>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Aman1131145&theme=tokyonight&layout=compact" />
+  <img src="https://github-readme-stats.vercel.app/api?username=Aman1131145&show_icons=true&theme=radical" />
 </p>
-
-<h2 align="center">My stack :man_technologist:</h2>
-
-<p align="center">Tools that I use on a daily basis, or that I've used or worked (either much or a bit) with on the past</p>
-
-<h2 align="center">Github stats :bar_chart:</h2>
-
-<h4 align="center">Top langs :tongue:</h4>
-
-<p align="center"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Aman1131145&langs_count=10&theme=tokyonight&layout=compact" alt="Aman1131145 :: Top Langs" /></p>
-
-<h4 align="center">Profile stats :musical_keyboard:</h4>
-
-<p align="center"><img src="https://github-readme-stats.vercel.app/api?username=Aman1131145&show_icons=true&theme=synthwave" alt="Aman1131145 :: Profile Stats" /></p>
-
-<p align="center"><img src="https://thumbs.gfycat.com/GoodnaturedFondGaur-size_restricted.gif" alt="Synthwave" height="300" width="500"></p>
-
 
 ---
 
